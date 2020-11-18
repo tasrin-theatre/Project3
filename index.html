@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0 auto;
+            max-width: 1140px;
+            box-sizing: border-box;
+            float: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .my-img {
+            background-image: url('1st.jpg');
+            background-color: rgb(133, 124, 111);
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .my-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            color: black;
+            text-shadow: 1.5px 1.5px 0px grey;
+
+        }
+        #btn {
+            border: indigo;
+            background-color: green;
+            color: white;
+            padding: 11px 20px;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: 1px 1px 0px gray;
+            display: inline-block;
+            font-size: 12px;
+            margin: 3px 1.5px;
+            cursor: pointer;
+        }
+        .s-img {
+            background-image: url('s.jpg');
+            background-color: rgb(133, 124, 111);
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            box-sizing: border-box;
+            position: relative;
+        }
+        .s-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            color: black;
+            text-shadow: 1.5px 1.5px 0px grey;
+
+        }
+        .img {
+            background-image: url('st.jpg');
+            background-color: rgb(133, 124, 111);
+            height: 500px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            box-sizing: border-box;
+            position: relative;
+        }
+    </style>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,100&display=swap" rel="stylesheet"> 
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/style.css"
+</head>
+<body>
+    <selector>
+        <div class="container">
+            <div class="topnav">
+                <img src="business.jpg">
+                <a class="active" href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="search..." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="my-img">
+                <div class="my-text">
+                    <h1 style="font-size: 40px;">Financial Company</h1>
+                    <h3>The fastest way to Financial models. Focus on building your business - not spreadsheets.</h3>
+                    <button id=btn>Learn More</button>
+                </div>
+            </div>
+            <div class="span">
+                <h1>Welcome to Financial Company</h1>
+                <span></span><br>
+                <span id="bold"></span><br>
+                <p>The fastest way to Financial models. Focus on building your business - not spreadsheets.<br> Make your business succesfull.</p>
+                <div>
+                    <i class="fa fa-circle" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="s-img">
+                <div class="s-text">
+                    <h5>Every 1st consultation</h5>
+                    <h1>With Us is Free!</h1>
+                    <span></span>
+                    <button id=btn>Read More</button>
+                </div>
+            </div>
+            
+            <div class="div1">
+                <h1> Our Expert Team </h1>
+                <span></span><br>
+                <span id="bold"></span><br>
+            </div>
+            <div class="div2">   
+                <div id="div3">
+                    <img src="m.jpg">
+                    <p>Hi, I am Lina.<br>professional web designer'<br> Web design Company in Pune SEO
+                    </p>
+                </div>
+                <div id=div4>
+                    <img src="b.jpg">
+                    <p>Hi, I am Sakib.<br>professional web designer'<br> Web design Company in Mumbai SEO
+                    </p>
+                </div>
+                <div id=div5>
+                    <img src="m2.jpg">
+                    <p>Hi, I am Tina.<br>professional web designer'<br> Web design Company in Pune SEO
+                    </p>
+                </div>
+                <div id=div6>
+                    <img src="b2.jpg">
+                    <p>Hi, I am Justin.<br>professional web designer'<br> Web design Company in Pune SEO
+                    </p>
+                </div>
+            </div><hr>
+            <div id=icon>
+                <div>
+                    <h1>Our Services</h1>
+                    <span></span><br>
+                    <span id="bold"></span><br>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <h1>Business Planning</h1>
+                    <p>A business plan is a formal written document containing business goals, the methods on how these goals can be attained, and the time frame within which these goals need to be achieved.</p>
+                </div>
+                <div class="icon2">
+                    <i class="fa fa-money" aria-hidden="true"></i>
+                    <h1>Investment</h1>
+                    <p>To invest is to allocate money in the expectation of some benefit in the future. In finance, the benefit from an investment is called a return</p>
+                </div>
+                <div class="icon3">
+                    <i class="fa fa-external-link-square" aria-hidden="true"></i>
+                    <h1>Exit Planning</h1>
+                    <p>Exit planning is the preparation for the exit of an entrepreneur from his company to maximize the enterprise value of the company in a mergers and acquisitions transaction and thus his shareholder value,</p>
+                </div>
+                <div class="icon4">
+                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                    <h1>Market Resource</h1>
+                    <p>Advertising people who ignore research are as dangerous as generals who ignore decodes of enemy signals.</p>
+                </div>
+            </div>
+            <div class="icon5">
+                <i class="fa fa-circle" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i><i class="fa fa-circle" aria-hidden="true"></i>
+            </div>
+            <div class="img">
+                <div>
+                    <div class="dp">
+                        <h1>WHATS OUR CLIENT SAYS</h1>
+                        <span></span><br>
+                        <span id="bold"></span><br>
+                    </div>
+                    <div id=dp>
+                        <p>You're Invaluable to Us
+                           We've been blown away by the incredible value you deliver, and how your work has translated into increased page view times, lead generations, and dramatic decreases in bounce rate and required support.</p>
+                    </div>
+                    <div class="last">
+                        <img src="last.jpg">
+                    </div>
+                    <div>
+                        <button id=btn>More Info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </selector>  
+    
+</body>
+</html>
